@@ -1,0 +1,27 @@
+# === Maven ===
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# === IntelliJ IDEA ===
+.idea/
+*.iml
+
+# === Gradle (αν κατά λάθος τρέξεις gradle build) ===
+.gradle/
+build/
+
+# === Java/Groovy compiled files ===
+*.class
+*.log
+
+# === Selenium WebDrivers (αν κατεβάσεις χειροκίνητα) ===
+chromedriver
+chromedriver.exe
+geckodriver
+
+# === VS Code ===
+.vscode/
+
+# === OS files ===
+.DS_Store
+Thumbs.db
